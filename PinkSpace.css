@@ -1,25 +1,8 @@
 @import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');
-/* Background */
-body::before {
-	position: absolute;
-	content: '';
-	height: 100%;
-	width: 100%;
-	background-image: var(--background-image);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	pointer-events: none;
-  }
-div#app-mount {
-	  background: var(--background-image) !important;
-}
-.layer-3QrUeG,
-.layers-3iHuyZ,
-.container-2lgZY8 {
-	background: transparent !important;
-}
-/*why you no update */
+/* background */
+.da-appMount {
+    background: var(--background-image);
+	
 /*Makes more area's Transparent and changes Hover color */
 .theme-dark {
 	--deprecated-panel-background: #0000001c !important;
