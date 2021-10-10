@@ -2,11 +2,6 @@
 /* Background */
 .da-appMount {
     background: var(--background-image);
-.layer-3QrUeG,
-.layers-3iHuyZ,
-.container-2lgZY8 {
-	background: transparent !important;
-}
 /*Makes more area's Transparent and changes Hover color */
 .theme-dark {
 	--deprecated-panel-background: #0000001c !important;
