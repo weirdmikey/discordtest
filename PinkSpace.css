@@ -12,6 +12,9 @@ body::before {
 	background-position: center;
 	pointer-events: none;
   }
+div#app-mount {
+	  background: var(--background-image) !important;
+}
 .layer-3QrUeG,
 .layers-3iHuyZ,
 .container-2lgZY8 {
