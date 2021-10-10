@@ -1,16 +1,17 @@
 @import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');
 /* Background */
 .app,
-.app-2rEoOp {
+body::before {
+	position: absolute;
+	content: '';
+	height: 100%;
+	width: 100%;
 	background-image: var(--background-image);
-    	position: absolute;
-    	content: '';
-      	height: 100%;
-      	width: 100%;
-    	background-size: cover;
-    	background-repeat: no-repeat;
-    	background-position: center;
-}
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	pointer-events: none;
+  }
 .layer-3QrUeG,
 .layers-3iHuyZ,
 .container-2lgZY8 {
