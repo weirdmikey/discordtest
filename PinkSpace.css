@@ -1,6 +1,5 @@
 @import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');
 /* Background */
-.app,
 body::before {
 	position: absolute;
 	content: '';
